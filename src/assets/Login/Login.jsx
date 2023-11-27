@@ -42,7 +42,7 @@ const Login = () => {
       e.preventDefault()
       SetLoad(true)
     
-      const response = await axios.post("https://63d3cbccc1ba499e54c8fd76.mockapi.io/user/user",{
+      const response = await axios.get("https://63d3cbccc1ba499e54c8fd76.mockapi.io/user/user",{
         ...FormData,
       });
       
