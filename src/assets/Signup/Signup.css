@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.head{
+    margin-top: 4%;
+background-color:none;
+min-width: auto;
+position: relative;
+   height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+     /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;  */
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #0a41d8; */
+    position: relative;
+    bottom: 10px;
+    width: 300px;
+}
+
+.animation{
+  
+    /* margin-right: 50px; */
+    position: relative;
+/* bottom: 0px; */
+right:- 200px;
+    height: 470px;
+    width: 500px;
+ /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */ 
+}
+.singup{
+    
+    right: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    /* margin-right: 30px; */
+    width: 320px;
+    height: 470px;
+    box-shadow: #ff9f00 0px 30px 50px, #ff9f00 0px -15px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.createh2{
+    margin-top: 10px;
+    font-size: 33px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: black;
+
+}
+.icon{
+    position: absolute;
+    left: -20px;
+    bottom: -15px;
+    width: 75px;
+    border-radius: 50px;
+}
+.titel{
+   position: relative;
+    text-align: center;
+    font-family: 'Righteous', 'cursive';
+    font-size: 20;
+    font-weight: 100;
+    color: #f79800;
+    width: 320px;
+    right: -20px;
+    
+}
+.contain{
+    display: flex;
+    flex-direction: column;
+}
+
+.Confirmicon{
+    position: relative;
+    top: 40px;
+    left: 10px;
+    color: #ff6e00;
+}
+/* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+
+.eye{
+    cursor: pointer;
+    position: relative;
+    top: 40px;
+    left: 10px;
+    color: #177e35;
+}
+.bt{
+   
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+    
+}
+
+.signupbtn {
+    background:  #ff9600 ;
+    border-radius: 999px;
+    box-shadow:  #ff9600 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: 'Righteous', 'cursive';
+   
+    font-size: 16px;
+    font-weight: 900px;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+  }
+  .sigin{
+    text-decoration: none;
+    margin-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: 900px;
+    line-height: 24px;
+  }
+  .sigin .ac{
+text-decoration: none;
+color: #19a83fe8;
+  }
+  .sigin .ac:hover{
+text-decoration: none;
+color: #0a41d8;
+  }
+
+
+
+  @media screen and (max-width: 760px){
+    .animation{
+
+        display: none;
+    }
+    .head{
+         
+         top: 100px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        left: 0px;
+        height: auto; 
+        width: auto;
+       
+    }
+    .singup{
+        right: 0%;
+        position: relative;
+        box-shadow:none;
+        height: 70vh;
+        width: 90vw;
+       
+    }
+   
+    .icon{
+       
+        position: absolute;
+      
+        width: 75px;
+    }
+    .signupbtn{
+        margin-top: 10px;
+    }
+  }

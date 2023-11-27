@@ -1,0 +1,12 @@
+
+.loder{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 90vw;
+    height: 99vh;
+    background-color: white;
+}
+
